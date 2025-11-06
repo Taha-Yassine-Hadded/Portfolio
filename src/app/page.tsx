@@ -11,6 +11,7 @@ import { GrProjects } from "react-icons/gr";
 import { LiaAwardSolid } from "react-icons/lia";
 import { Testimonials } from "../Components/Testimonials";
 import { NavItem } from "./types/nav";
+import Certifications from "../Components/Certifications";
 
 // Import ToastContainer dynamically with SSR disabled
 const ToastContainer = dynamic(
@@ -30,6 +31,12 @@ const navItems: NavItem[] = [
     icon: <GrProjects className="h-4 w-4 text-neutral-500 dark:text-white" />,
   },
   {
+    name: "Certifications", link: "#certifications",
+    icon: (
+      <LiaAwardSolid className="h-5 w-5 text-neutral-500 dark:text-white" />
+    ),
+  },
+  {
     name: "Testimonials", link: "#testimonials",
     icon: (
       <LiaAwardSolid className="h-5 w-5 text-neutral-500 dark:text-white" />
@@ -47,6 +54,7 @@ export default function Home() {
           <PictureAnimation />
           <Grid />
           <RecentProjects />
+          <Certifications />
           <Testimonials />
           <Footer />
         </div>
