@@ -2,16 +2,20 @@ import React from 'react'
 import { HoverEffect } from './Card-hover-effect';
 const awardsCertificates = [
     {
-        title: "Attendance Hashgraph Developer",
-        link: "https://certs.hashgraphdev.com/f5da5d45-9395-40f5-aa69-4045a5088595.pdf",
+        title: "AWS Cloud Foundations",
+        link: "https://www.credly.com/badges/3feb201f-8573-4653-b4f4-ce2be5fce188/linked_in_profile",
     },
     {
-        title: "AWS Academy Graduate - Cloud Foundations - Training Badge",
-        link: "https://www.credly.com/badges/3feb201f-8573-4653-b4f4-ce2be5fce188/linked_in_profile",
+        title: "Spring Boot 3 Essential Training",
+        link: "https://www.linkedin.com/learning/certificates/2a2fd4552367351448d97fd546bddcbbec77cfd7a202739498bfc6c4d5733ac9",
     },
     {
         title: "Graph Developer - Professional",
         link: "https://www.apollographql.com/tutorials/certifications/faf5b411-8dfc-4bb1-963a-aa5fa9a0aa6b",
+    },
+    {
+        title: "Hashgraph Developer",
+        link: "https://certs.hashgraphdev.com/f5da5d45-9395-40f5-aa69-4045a5088595.pdf",
     },
     {
         title: "CCNA: Switching, Routing, and Wireless Essentials",
