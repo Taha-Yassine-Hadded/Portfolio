@@ -6,6 +6,10 @@ const awardsCertificates = [
         link: "https://www.credly.com/badges/3feb201f-8573-4653-b4f4-ce2be5fce188/linked_in_profile",
     },
     {
+        title: "Agile Project Management Professional - Atlassian",
+        link: "https://www.linkedin.com/learning/certificates/abe6bf2c362295bfa09e1b32092a6a03b9dde71cf055d3d01d98cd0e5a1b5a5e",
+    },
+    {
         title: "Spring Boot 3 Essential Training",
         link: "https://www.linkedin.com/learning/certificates/2a2fd4552367351448d97fd546bddcbbec77cfd7a202739498bfc6c4d5733ac9",
     },
