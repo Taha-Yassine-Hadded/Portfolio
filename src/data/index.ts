@@ -101,6 +101,18 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Chatbot - Gemini",
+    des: "An AI chatbot application powered by Google Gemini that provides intelligent conversational responses with bilingual support for English and French. Features include user authentication, conversation history management, real-time streaming responses, and token usage tracking.",
+    img: "/p8.png",
+    link: "https://chatbot-gemini-alpha.vercel.app/chat",
+    videosrc: "",
+    iconLists: ["/next.svg", "/tail.svg", "/sup.jpg"],
+    git: "https://github.com/Taha-Yassine-Hadded/chatbot-gemini",
+    underDev: false,
+    type: true
+  },
+  {
+    id: 5,
     title: "EcoEvents",
     des: "EcoEvents is a Laravel-based web application that connects users with environmental and sustainability-focused events. It allows users to discover, join, and participate in eco-friendly initiatives and community-driven activities. Built with Laravel, Vite, Blade, and MySQL, it ensures a smooth and dynamic user experience. The platform encourages collaboration and awareness around ecological actions and local environmental movements.",
     img: "/p3.png",
@@ -111,7 +123,7 @@ export const projects = [
     type: true
   },
   {
-    id: 5,
+    id: 6,
     title: "Socialite",
     des: "Socialite is a Django-based social platform that inspires users to explore the world and share their travel experiences. It enables users to connect, create communities, and engage through posts, photos, and discussions about global destinations. The platform promotes cultural exchange and communication among travelers worldwide.",
     img: "/p5.png",
@@ -122,7 +134,7 @@ export const projects = [
     underDev: true,
   },
   {
-    id: 6,
+    id: 7,
     title: "EduSmart",
     des: "EduSmart is an e-learning platform built with Symfony and MySQL, designed to enhance collaboration between teachers and students. It provides tools for course management, assignments, and progress tracking in an intuitive interface. Teachers can create and manage educational content, while students can access lessons and submit work easily. The platform aims to make digital learning more interactive, organized, and accessible.",
     img: "/p6.png",
@@ -133,24 +145,13 @@ export const projects = [
     underDev: false,
   },
   {
-    id: 7,
+    id: 8,
     title: "Xtensus - Reference Management App",
     des: "Xtensus - Reference Management application is designed to streamline searching and filtering past projects of the Xtensus company. It helps teams quickly find and reference similar projects for future work. Developed collaboratively during my internship, it enhances efficiency and knowledge reuse within the organization.",
     img: "/p7.png",
     iconLists: ["/Symfony.png", "/Angular.svg", "/ts.svg", "/Bootstrap.svg", "/MySQL.svg"],
     videosrc: "",
     git: "https://github.com/Taha-Yassine-Hadded/GestionReference-Front",
-    type: true,
-    underDev: false,
-  },
-  {
-    id: 8,
-    title: "TalentLink",
-    des: "TalentLink is a Spring Boot application with Thymeleaf and Spring Security, developed as a final year project. The platform connects talents with recruiters, facilitating job discovery and candidate selection. It provides a secure and interactive environment for managing profiles, applications, and job postings efficiently.",
-    img: "/p8.png",
-    iconLists: ["/Spring.svg", "/Thym.png", "/Bootstrap.svg", "/MySQL.svg"],
-    videosrc: "",
-    git: "https://github.com/Taha-Yassine-Hadded/TalentLink",
     type: true,
     underDev: false,
   }
